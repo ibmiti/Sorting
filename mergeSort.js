@@ -12,6 +12,9 @@ const length = array.length;
 const middle = Math.floor(length / 2);
 const left   = array.slice(0, middle);
 const right  = array.slice(middle);
+console.log('left:', left);
+console.log('right:', right);
+
 
 return mergeSort(
      mergeSort(left),
