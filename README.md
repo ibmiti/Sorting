@@ -64,3 +64,10 @@ A:  best case O(n) - worse case O(n^2)
 Q: what determines the run-time?  :  
 A: the size of data set + how arranged the arr is, if the second loop must kick-in then it become O(n^2)     
 
+
+
+::::::::::::::::::: Merge sorting :::::::::::::::::::::::   
+
+
+Q: what is the run time of Merge sort ? :    
+A:       
