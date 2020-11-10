@@ -116,3 +116,61 @@ A:
 Q: What is merge sort? :     
 A: The algorithm divides the array in two halves, recursively sorts them and finally merges the two sorted halves.          
 
+Q: which sort is best? and for what ? :     
+A:     
+    
+ 1. insertion sort : used on small-data sets, roughly sorted list
+ 2. mergesort : uses divide and conquer O(n log n) and really quick - thhough the space complexity is expensive due to recursion being used
+ 3. quicksort : less space complexity than merge, great best-case time complexity 
+ 4. Heap sort has best / worse case in both ( time/space complexity)
+
+
+  ::::::: non-comparison sorts :::::::
+
+  1. Counting Sort
+  2. Radix Sort
+
+:: resources for non-comparison sorts :::
+
+  Radix Sort: https://brilliant.org/wiki/radix-sort/
+
+  Radix Sort Animation: https://www.cs.usfca.edu/~galles/visualization/RadixSort.html
+
+
+
+  Counting Sort: https://brilliant.org/wiki/counting-sort/
+
+  Counting Sort Animation:   https://www.cs.usfca.edu/~galles/visualization/CountingSort.html   
+
+
+
+  ::: which sorts would be best comparisons ::::
+
+
+  1. sort 10 schools around your house by distance :
+     insertion sort
+
+  2. sort listings by the current bid amount:
+    radix or counting sort
+
+ 3. sport scores on sport station like espn
+
+    quick sort
+
+ 4. massive database cant  fit all data into memory to sort 
+    sort through past years user data: 
+
+    merge sort 
+
+ 5. sort reviews data needs to update and add 2 new reviews
+
+    insertion sort
+
+ 6. temperature records for the past 50 uyears in alaska
+
+    radix counting sort || quick sort ( for in memory sorting )
+
+ 7. large user name database needs to be sorted data is very random 
+
+    quick sort 
+
