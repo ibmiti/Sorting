@@ -65,9 +65,22 @@ Q: what determines the run-time?  :
 A: the size of data set + how arranged the arr is, if the second loop must kick-in then it become O(n^2)     
 
 
-
 ::::::::::::::::::: Merge sorting :::::::::::::::::::::::   
 
 
-Q: what is the run time of Merge sort ? :    
-A:       
+Q: what is the run time of Merge sort ? :       
+A: potential time : O(n log n) worse case O(n)
+
+Statement : Merge Sort uses the technique [ Divide and Conquer ]    
+
+Q: what is Divide and conquer? :    
+A:    
+       This technique can be divided into the following three parts:      
+          
+       Divide: This involves dividing the problem into some sub problem.   
+       Conquer: Sub problem by calling recursively until sub problem solved.   
+       Combine: The Sub problem Solved so that we will get find problem solution.  
+
+Q: What is merge sort? :     
+A: The algorithm divides the array in two halves, recursively sorts them and finally merges the two sorted halves.          
+
