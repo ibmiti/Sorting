@@ -9,7 +9,7 @@ function mergeSort(array){
 // recursive action(s)
 
 const length = array.length;
-const middle = Math.floor(length /2);
+const middle = Math.floor(length / 2);
 const left   = array.slice(0, middle);
 const right  = array.slice(middle);
 
@@ -33,6 +33,7 @@ function merge(left,right){
                 rightIndex++;
             }
         } 
+        console.log(left,right);
         return result.concat(left.slice(leftIndex)).concat
         (right.slice(rightIndex));
 }
