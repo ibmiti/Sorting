@@ -52,3 +52,17 @@ A: O(n^2)
 
 
 
+::::::::::::::::::: insertion sorting :::::::::::::::::::::::   
+
+Q: what is insertion sort use case?  :  
+A: useful for presorted or roughly-sorted list      
+
+
+Q:   :  
+A:      
+
+Q:   :  
+A:      
+
+Q:   :  
+A:      
