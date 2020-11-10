@@ -55,14 +55,12 @@ A: O(n^2)
 ::::::::::::::::::: insertion sorting :::::::::::::::::::::::   
 
 Q: what is insertion sort use case?  :  
-A: useful for presorted or roughly-sorted list      
+A: useful for presorted or roughly-sorted list, or small data-sets  
 
 
-Q:   :  
-A:      
+Q: what is the time-complexity?  :  
+A:  best case O(n) - worse case O(n^2)
 
-Q:   :  
-A:      
+Q: what determines the run-time?  :  
+A: the size of data set + how arranged the arr is, if the second loop must kick-in then it become O(n^2)     
 
-Q:   :  
-A:      
